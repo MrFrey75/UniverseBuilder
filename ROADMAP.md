@@ -46,8 +46,8 @@ These 14 phases established the full functionality described in the `README.md`.
 
 #### 1.2 Database Configuration
 
-  * [ ] Integrate **SQLite** into `UniverseBuilder.Core`.
-  * [ ] Set up **Entity Framework Core** with SQLite provider.
+  * [ ] Integrate **MongoDB** into `UniverseBuilder.Core`.
+  * [ ] Set up **MongoDB driver** for .NET.
   * [ ] Create initial database context class with basic configuration.
   * [ ] Implement database migration strategy.
 
@@ -289,7 +289,7 @@ These 14 phases established the full functionality described in the `README.md`.
 
 #### 8.1 Search Infrastructure
 
-  * [ ] Implement **full-text search** in SQLite database.
+  * [ ] Implement **full-text search** in MongoDB database.
   * [ ] Create unified search service searching across all entity types.
   * [ ] Add search result ranking and relevance scoring.
   * [ ] Support search within specific entity types or globally.
@@ -597,7 +597,7 @@ These 14 phases established the full functionality described in the `README.md`.
 ### 15.1 Stability & Performance
 
   * [ ] Conduct **performance profiling** on the C\# API endpoints.
-  * [ ] Optimize **SQLite queries** within the `UniverseBuilder.Core` Data layer for large datasets.
+  * [ ] Optimize **MongoDB queries** within the `UniverseBuilder.Core` Data layer for large datasets.
   * [ ] Implement **React code splitting** and lazy loading for faster UI initial load times.
   * [ ] Resolve all **known P1/P2 bugs** identified during internal testing.
 
@@ -617,7 +617,7 @@ These 14 phases established the full functionality described in the `README.md`.
 
 ## 📈 Future Development (Post 1.0 Release)
 
-These phases will focus on highly requested features, external integrations, and scaling the application beyond local SQLite use.
+These phases will focus on highly requested features, external integrations, and scaling the application with MongoDB.
 
 ### Phase 16: User Experience & Customization
 

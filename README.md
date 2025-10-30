@@ -1,31 +1,27 @@
-This is the full **`README.md`** file, incorporating the new **C\#/.NET Core** and **React** technology stack, the detailed feature descriptions, the updated development structure, and leveraging your expertise and preferences (MVVM/SQLite).
-
------
-
-\<div align="center"\>
+<div align="center">
 
 # 🌍 WorldBuilder
 
-### A Comprehensive Worldbuilding & Universe Creation Tool (C\#/.NET Core & React)
+### A Comprehensive Worldbuilding & Universe Creation Tool (C#/.NET Core & React)
 
 [](https://dotnet.microsoft.com/)
 [](https://reactjs.org/)
-[](https://www.sqlite.org/)
+[](https://www.mongodb.com/)
 [](LICENSE)
 
-*Empower your storytelling with a powerful, performant application built on a **robust C\# backend** and a modern, cross-platform **React frontend**.*
+*Empower your storytelling with a powerful, performant application built on a **robust C# backend** and a modern, cross-platform **React frontend**.*
 
 [Features](#-features-built-on-net-core--react) • [Quick Start](QUICKSTART.md) • [User Guide](USER_GUIDE.md) • [Developer Guide](DEVELOPER_GUIDE.md) • [Roadmap](ROADMAP.md)
 
-\</div\>
+</div>
 
 -----
 
 ## 📖 Overview
 
-**WorldBuilder** is a powerful cross-platform application that helps you create, organize, and maintain consistency across your fictional worlds. It is built on a **C\#/.NET Core backend** and a modern, responsive **React frontend**.
+**WorldBuilder** is a powerful cross-platform application that helps you create, organize, and maintain consistency across your fictional worlds. It is built on a **C#/.NET Core backend** and a modern, responsive **React frontend**.
 
-By leveraging a **highly structured C\# core library (`UniverseBuilder.Core`)**, WorldBuilder ensures data integrity and scalability, allowing authors, storytellers, and creators to efficiently keep track of every detail in their universe. The embedded **SQLite** database makes local development and deployment simple and fast.
+By leveraging a **highly structured C# core library (`UniverseBuilder.Core`)**, WorldBuilder ensures data integrity and scalability, allowing authors, storytellers, and creators to efficiently keep track of every detail in their universe. The embedded **MongoDB** database makes local development and deployment simple and fast.
 
 ### 🎯 Perfect For
 
@@ -38,15 +34,15 @@ By leveraging a **highly structured C\# core library (`UniverseBuilder.Core`)**,
 
 ## ✨ Features: Built on .NET Core & React
 
-The C\# `UniverseBuilder.Core` library provides high-integrity data, which the responsive React UI presents in a powerful and engaging way.
+The C# `UniverseBuilder.Core` library provides high-integrity data, which the responsive React UI presents in a powerful and engaging way.
 
 ### Core Entity Management
 
 | Feature Area | React UI Design & User Experience (UX) |
 |:---|:---|
-| **👥 Notable Figures (Characters)** | Uses a **Kanban-style grid** for quick viewing, transitioning to a **collapsible, tabbed sidebar** for details. Data validation is performed in real-time against the C\# data models. Relationships are managed via a dedicated **multi-select component**. |
+| **👥 Notable Figures (Characters)** | Uses a **Kanban-style grid** for quick viewing, transitioning to a **collapsible, tabbed sidebar** for details. Data validation is performed in real-time against the C# data models. Relationships are managed via a dedicated **multi-select component**. |
 | **🗺️ Hierarchical Locations** | Implemented as a **split-panel view**. The left features an **interactive tree-view** for drag-and-drop hierarchy adjustments, while the right includes **map integration** and a persistent **breadcrumb navigation** to show the full path (e.g., Planet \> Continent \> City). |
-| **🧬 Species & Races** | A **master-detail interface** utilizing **dynamic form generation** based on the C\# models. Includes a **template feature** for quickly cloning common species types to speed up world creation. |
+| **🧬 Species & Races** | A **master-detail interface** utilizing **dynamic form generation** based on the C# models. Includes a **template feature** for quickly cloning common species types to speed up world creation. |
 | **📅 Events & Timeline** | The primary view is a **dynamic calendar/gantt chart component** that allows drag-and-drop event manipulation. Supports a dedicated **date picker that works with custom calendars** configured in the backend. |
 | **🏛️ Organizations & Factions** | A **card-based layout** for primary viewing. The detail view includes a **dynamic hierarchy chart** (org chart) to visualize command structure and a **member management widget** connected to the Figures dataset. |
 | **🏺 Artifacts & Lore** | A searchable, inventory-style list. The detail view leverages a Rich Text Editor with an **inline entity-linking feature**, allowing users to type `@` followed by any entity name to create an active hyperlink, ensuring deep lore cross-referencing. |
@@ -55,9 +51,9 @@ The C\# `UniverseBuilder.Core` library provides high-integrity data, which the r
 
   * **🔗 Relationship Mapping:** An **interactive graph visualization component** that renders entities as nodes and relationships as directed edges. Users can filter by relationship type and double-click any node to instantly view details.
   * **⏳ Timeline Visualization:** Provides multiple React view components: **Linear Scrolling View**, **Branching View** (for alternate history/canon splits), and a **Chronological Card View** grouped by user-defined eras/ages.
-  * **🔍 Advanced Search & Filtering:** A persistent, **context-aware search bar** that supports type-ahead search. The "Advanced Filter" modal allows users to build complex queries that are translated into efficient C\# LINQ/SQL database operations.
+  * **🔍 Advanced Search & Filtering:** A persistent, **context-aware search bar** that supports type-ahead search. The "Advanced Filter" modal allows users to build complex queries that are translated into efficient C# LINQ/SQL database operations.
   * **📝 Rich Text Editor:** A fully integrated, **Wysiwyg Markdown editor** that supports inline images, code blocks, and the crucial **entity-linking system**.
-  * **📊 Data Management:** A dedicated settings panel for **Export, Import, Backup, and Restore**. The C\# API handles the serialization and SQLite operations, providing the React UI with real-time progress bars.
+  * **📊 Data Management:** A dedicated settings panel for **Export, Import, Backup, and Restore**. The C# API handles the serialization and MongoDB operations, providing the React UI with real-time progress bars.
 
 -----
 
@@ -67,10 +63,10 @@ WorldBuilder is a full-stack application leveraging modern, cross-platform techn
 
 | Layer | Technology | Purpose |
 |:---|:---|:---|
-| **Backend Core** | **C\# 12 / .NET 8+** | Core business logic, data models, and services (Structured to support MVVM principles). |
+| **Backend Core** | **C# 12 / .NET 8+** | Core business logic, data models, and services (Structured to support MVVM principles). |
 | **API** | **ASP.NET Core** | Provides RESTful endpoints for secure communication with the frontend. |
 | **Data Access** | **UniverseBuilder.Core** | Class Library implementing the Repository Pattern. |
-| **Database** | **SQLite** | Embedded, file-based data storage for development and local distribution. |
+| **Database** | **MongoDB** | Flexible, document-based data storage for development and production. |
 | **Frontend UI** | **React / TypeScript** | Modern, responsive, cross-platform user interface. |
 | **Architecture** | **Layered Architecture** | Clear separation between UI, API, and Core business logic for maintainability. |
 | **Platform** | Windows / macOS / Linux | Cross-platform desktop (via hosting) and web application. |
@@ -91,7 +87,7 @@ WorldBuilder/
 │   ├── UniverseBuilder.Core/           # C# Class Library Project (Business Logic)
 │   │   ├── Models/                   # Domain Entities and Data Transfer Objects (DTOs)
 │   │   ├── Services/                 # Business logic implementation
-│   │   └── Data/                     # Repository Pattern implementation (SQLite access)
+│   │   └── Data/                     # Repository Pattern implementation (MongoDB access)
 │   │
 │   ├── UniverseBuilder.Api/            # ASP.NET Core Web API Project
 │   │   ├── Controllers/              # RESTful API endpoints
@@ -114,7 +110,7 @@ WorldBuilder/
 
 Before you begin, ensure you have the following installed:
 
-  - **[.NET 8 SDK or later]** - Required for the C\# backend.
+  - **[.NET 8 SDK or later]** - Required for the C# backend.
   - **[Node.js (LTS)]** - Required for the React frontend and `npm`.
 
 ### Installation & Quick Start
@@ -124,7 +120,7 @@ Before you begin, ensure you have the following installed:
 **Quick Steps**:
 
 1.  Clone repository.
-2.  Restore and run the C\# API.
+2.  Restore and run the C# API.
 3.  Install dependencies and start the React UI.
 
 ### Quick Development Setup
@@ -152,11 +148,11 @@ npm start
 
 📖 **[See Developer Guide →](DEVELOPER_GUIDE.md)** for comprehensive technical documentation.
 
-WorldBuilder is built for performance and maintainability using modern **C\#/.NET standards**. The use of **SQLite** simplifies the local setup, allowing developers to get the application running and start contributing with minimal overhead. The project structure is intentionally designed to support architectural patterns that align with your experience in **WPF MVVM**.
+WorldBuilder is built for performance and maintainability using modern **C#/.NET standards**. The use of **MongoDB** simplifies the local setup, allowing developers to get the application running and start contributing with minimal overhead. The project structure is intentionally designed to support architectural patterns that align with your experience in **WPF MVVM**.
 
 ### Running Tests
 
-Unit and integration tests are available for the C\# projects.
+Unit and integration tests are available for the C# projects.
 
 ```bash
 # Run all C# tests
@@ -177,14 +173,14 @@ The core feature set is complete, and the project is now entering the **Beta Tes
 
 ## 🤝 Contributing
 
-Contributions are welcome\! Whether you're fixing bugs in the C\# core, enhancing the React UI, or improving documentation, your help is appreciated.
+Contributions are welcome\! Whether you're fixing bugs in the C# core, enhancing the React UI, or improving documentation, your help is appreciated.
 
 ### Contribution Guidelines
 
-  - Follow standard **C\# and .NET naming conventions** and best practices.
+  - Follow standard **C# and .NET naming conventions** and best practices.
   - Follow **PEP 8 style guidelines** where applicable in scripts/tools.
   - Write clear, descriptive commit messages.
-  - Add unit tests for new features in the C\# Core library.
+  - Add unit tests for new features in the C# Core library.
   - Ensure all tests pass before submitting a Pull Request.
 
 -----
@@ -203,13 +199,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 -----
 
-\<div align="center"\>
+<div align="center">
 
 **[⬆ Back to Top](#-worldbuilder)**
 
 Made with ❤️ for storytellers and worldbuilders everywhere
 
-\</div\>
+</div>
 
 -----
 
