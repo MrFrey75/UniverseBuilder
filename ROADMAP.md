@@ -149,7 +149,7 @@ These 14 phases established the full functionality described in the `README.md`.
 
   * [ ] Define **Species entity** model with detailed properties.
   * [ ] Add fields: Name, Description, PhysicalTraits, LifeSpan, Culture, Abilities, etc.
-  * [ ] Support for **sub-races** or variants (optional hierarchy).
+  * [ ] Support for **sub-races** or variants hierarchy.
   * [ ] Create **SpeciesRepository** with filtering capabilities.
 
 #### 4.2 Template System
