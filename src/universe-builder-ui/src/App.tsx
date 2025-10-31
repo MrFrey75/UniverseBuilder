@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🌍 UniverseBuilder</h1>
-        <p>Create, organize, and maintain your fictional worlds</p>
+        <h1>🌍 Universe Builder</h1>
       </header>
       <main>
         <UniverseManagement />

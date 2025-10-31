@@ -94,6 +94,26 @@
   flex: 1;
 }
 
+.card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+  background-color: #0056b3;
+}
+
 .btn-delete {
   background: none;
   border: none;

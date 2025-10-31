@@ -74,17 +74,28 @@ export const UniverseList: React.FC<UniverseListProps> = ({ onSelectUniverse, on
             <div
               key={universe.id}
               className="universe-card"
-              onClick={() => onSelectUniverse(universe)}
             >
               <div className="card-header">
                 <h3>{universe.name}</h3>
-                <button
-                  className="btn-delete"
-                  onClick={(e) => handleDelete(universe.id, e)}
-                  title="Delete universe"
-                >
-                  ×
-                </button>
+                <div className="card-actions">
+                  <button
+                    className="btn-view"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSelectUniverse(universe);
+                    }}
+                    title="View locations"
+                  >
+                    View
+                  </button>
+                  <button
+                    className="btn-delete"
+                    onClick={(e) => handleDelete(universe.id, e)}
+                    title="Delete universe"
+                  >
+                    ×
+                  </button>
+                </div>
               </div>
               <p className="card-description">{universe.description || 'No description'}</p>
               <div className="card-footer">

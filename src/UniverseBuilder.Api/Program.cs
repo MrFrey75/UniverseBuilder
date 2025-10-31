@@ -24,6 +24,8 @@ builder.Services.AddSingleton<IMongoDatabase>(sp =>
 // Register repositories and services
 builder.Services.AddScoped<IUniverseRepository, UniverseRepository>();
 builder.Services.AddScoped<UniverseService>();
+builder.Services.AddScoped<ILocationRepository, LocationRepository>();
+builder.Services.AddScoped<LocationService>();
 
 // Configure CORS for React frontend
 builder.Services.AddCors(options =>

@@ -1,0 +1,75 @@
+.location-management {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+.management-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  overflow: hidden;
+}
+
+.tree-panel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-panel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.loading-container p,
+.error-container p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error-container {
+  color: #dc3545;
+}
+
+.error-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.error-container button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1024px) {
+  .management-layout {
+    grid-template-columns: 300px 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .management-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .tree-panel {
+    max-height: 40vh;
+  }
+}
