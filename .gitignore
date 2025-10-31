@@ -417,15 +417,19 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# React / Node.js specific
+# Node.js specific
+node_modules/
+.env
+
+# React build artifacts
+src/universe-builder-ui/build/
+src/universe-builder-ui/dist/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-dist/
-build/
-.env.local
-.env.*.local
 
 # IDE specific
 .idea/

@@ -2,7 +2,7 @@
 
 ## Our Commitment
 
-WorldBuilder is committed to providing a welcoming, inclusive, and harassment-free experience for all community members, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+UniverseBuilder is committed to providing a welcoming, inclusive, and harassment-free experience for all community members, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We expect all contributors, maintainers, and community members to uphold this code of conduct in all interactions.
 
@@ -45,7 +45,7 @@ Community maintainers are responsible for:
 
 ## Scope
 
-This code of conduct applies within all community spaces (GitHub issues, pull requests, discussions, social media, events, etc.) and also applies when representing WorldBuilder in public spaces.
+This code of conduct applies within all community spaces (GitHub issues, pull requests, discussions, social media, events, etc.) and also applies when representing UniverseBuilder in public spaces.
 
 Examples include:
 - Using official project email addresses
@@ -87,4 +87,9 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 If you have questions about this code of conduct or how to report violations, please reach out to the project maintainers.
 
-Thank you for helping make WorldBuilder a positive, respectful, and inclusive community! 💜
+Thank you for helping make UniverseBuilder a positive, respectful, and inclusive community! 💜
+
+[Contributing Guidelines](CONTRIBUTING.md)
+[Quick Start Guide](QUICKSTART.md)
+[Developer Guide](DEVELOPER_GUIDE.md)
+[Roadmap](ROADMAP.md)

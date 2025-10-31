@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the WorldBuilder project will be documented in this file.
+All notable changes to the UniverseBuilder project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -70,21 +70,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | Phase | Description | Status | Target |
 |:---|:---|:---|:---|
 | Phases 1-14 | Core development | Not Started | Pre-Beta |
-| Phase 15 | Beta & Deployment | In Progress | Q4 2025 |
+| Phase 15 | Beta & Deployment | Planned | Q4 2025 |
 | Phase 16+ | Post-1.0 Features | Planned | 2026+ |
 
-See [ROADMAP.md](ROADMAP.md) for detailed phase information.
+See [ROADMAP.md](docs/ROADMAP.md) for detailed phase information.
 
 ---
 
 ## Community
 
 - 📖 Read the [README](README.md) for project overview
-- 🚀 Check [QUICKSTART.md](QUICKSTART.md) for getting started (coming soon)
-- 👨‍💻 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
-- 📋 View [ROADMAP.md](ROADMAP.md) for development plans
-- 💬 [GitHub Discussions](https://github.com/MrFrey75/WorldBuilder/discussions) for questions
-- 🐛 [GitHub Issues](https://github.com/MrFrey75/WorldBuilder/issues) for bug reports and feature requests
+- 🚀 Check [QUICKSTART.md](docs/QUICKSTART.md) for getting started
+- 👨‍💻 See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines
+- 📋 View [ROADMAP.md](docs/ROADMAP.md) for development plans
+- 💬 [GitHub Discussions](https://github.com/MrFrey75/UniverseBuilder/discussions) for questions
+- 🐛 [GitHub Issues](https://github.com/MrFrey75/UniverseBuilder/issues) for bug reports and feature requests
 
 ---
 

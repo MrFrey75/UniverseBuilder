@@ -1,8 +1,8 @@
-# 🗺️ Development Roadmap: WorldBuilder
+# 🗺️ Development Roadmap: UniverseBuilder
 
 **Current Status: Feature Complete (Beta Candidate)** ✓
 
-The core functionality of WorldBuilder, built on the C\#/.NET 8+ and React stack, has been implemented across the first 14 planned phases. We are currently focused on optimization, bug resolution, and preparing for initial release.
+The core functionality of UniverseBuilder, built on the C#/.NET 8+ and React stack, has been implemented across the first 14 planned phases. We are currently focused on optimization, bug resolution, and preparing for initial release.
 
 This roadmap details the planned phases and specific, actionable tasks organized into sub-phases for full transparency and contribution guidance.
 
@@ -12,8 +12,8 @@ These 14 phases established the full functionality described in the `README.md`.
 
 | Phase | Description | Completion Status |
 |:---|:---|:---|
-| **Phase 1** | Foundation & Setup | Not Started |
-| **Phase 2** | Universe Management (C\# Core & API) | Not Started |
+| **Phase 1** | Foundation & Setup | Completed |
+| **Phase 2** | Universe Management (C# Core & API) | Not Started |
 | **Phase 3** | Location System with Hierarchical Structure | Not Started |
 | **Phase 4** | Species & Races System | Not Started |
 | **Phase 5** | Notable Figures System | Not Started |
@@ -37,26 +37,26 @@ These 14 phases established the full functionality described in the `README.md`.
 
 #### 1.1 Project Initialization
 
-  * [ ] Create **Visual Studio Solution** file (`UniverseBuilder.sln`).
-  * [ ] Set up **UniverseBuilder.Core** C# Class Library project (.NET 8+).
-  * [ ] Set up **UniverseBuilder.Api** ASP.NET Core Web API project.
-  * [ ] Initialize **React/TypeScript** frontend project (`universe-builder-ui`).
-  * [ ] Configure **.gitignore** for C#, Node.js, and common IDE files.
-  * [ ] Create initial **README.md** and **LICENSE** files.
+  * [x] Create **Visual Studio Solution** file (`UniverseBuilder.sln`).
+  * [x] Set up **UniverseBuilder.Core** C# Class Library project (.NET 8+).
+  * [x] Set up **UniverseBuilder.Api** ASP.NET Core Web API project.
+  * [x] Initialize **React/TypeScript** frontend project (`universe-builder-ui`).
+  * [x] Configure **.gitignore** for C#, Node.js, and common IDE files.
+  * [x] Create initial **README.md** and **LICENSE** files.
 
 #### 1.2 Database Configuration
 
-  * [ ] Integrate **MongoDB** into `UniverseBuilder.Core`.
-  * [ ] Set up **MongoDB driver** for .NET.
-  * [ ] Create initial database context class with basic configuration.
-  * [ ] Implement database migration strategy.
+  * [x] Integrate **MongoDB** into `UniverseBuilder.Core`.
+  * [x] Set up **MongoDB driver** for .NET.
+  * [x] Create initial database context class with basic configuration.
+  * [x] Implement database migration strategy.
 
 #### 1.3 Development Environment
 
-  * [ ] Configure **dependency injection** in ASP.NET Core API.
-  * [ ] Set up **CORS policy** for React frontend communication.
-  * [ ] Configure **development environment variables** and settings.
-  * [ ] Establish **logging infrastructure** (Serilog or default .NET logging).
+  * [x] Configure **dependency injection** in ASP.NET Core API.
+  * [x] Set up **CORS policy** for React frontend communication.
+  * [x] Configure **development environment variables** and settings.
+  * [x] Establish **logging infrastructure** (Serilog or default .NET logging).
 
 -----
 
@@ -596,7 +596,7 @@ These 14 phases established the full functionality described in the `README.md`.
 
 ### 15.1 Stability & Performance
 
-  * [ ] Conduct **performance profiling** on the C\# API endpoints.
+  * [ ] Conduct **performance profiling** on the C# API endpoints.
   * [ ] Optimize **MongoDB queries** within the `UniverseBuilder.Core` Data layer for large datasets.
   * [ ] Implement **React code splitting** and lazy loading for faster UI initial load times.
   * [ ] Resolve all **known P1/P2 bugs** identified during internal testing.
@@ -604,12 +604,12 @@ These 14 phases established the full functionality described in the `README.md`.
 ### 15.2 Quality Assurance & Feedback
 
   * [ ] Establish a **public beta testing program** and feedback mechanism (GitHub Discussions).
-  * [ ] Finalize and lock the **database schema** in C\# Core for version 1.0.
+  * [ ] Finalize and lock the **database schema** in C# Core for version 1.0.
   * [ ] Review and confirm **cross-browser compatibility** for the React UI.
 
-### 15.3 Deployment Strategy (Key Focus for C\# and React)
+### 15.3 Deployment Strategy (Key Focus for C# and React)
 
-  * [ ] Define final **packaging strategy** for standalone desktop use (e.g., bundling the C\# API and React UI using Electron, or a simple self-contained .NET deployment).
+  * [ ] Define final **packaging strategy** for standalone desktop use (e.g., bundling the C# API and React UI using Electron, or a simple self-contained .NET deployment).
   * [ ] Create automated **build scripts** for Windows, macOS, and Linux targets.
   * [ ] Publish **initial standalone installers** for beta testers.
 
@@ -624,12 +624,12 @@ These phases will focus on highly requested features, external integrations, and
   * [ ] **Customizable UI Themes** (dark mode, custom color palettes).
   * [ ] **React Accessibility (A11Y)** review and enhancements.
   * [ ] **Keyboard Shortcut mapping** for common tasks (e.g., New Character, Save).
-  * [ ] User-defined **custom fields** on all core entities (driven by C\# configurations).
+  * [ ] User-defined **custom fields** on all core entities (driven by C# configurations).
 
 ### Phase 17: Multi-User & Synchronization
 
-  * [ ] **Authentication System** (IdentityServer or simple C\# Identity for multi-user support).
-  * [ ] Ability to switch the C\# Core to connect to a **full-scale SQL database** (PostgreSQL/SQL Server) for true hosting/collaboration.
+  * [ ] **Authentication System** (IdentityServer or simple C# Identity for multi-user support).
+  * [ ] Ability to switch the C# Core to connect to a **full-scale SQL database** (PostgreSQL/SQL Server) for true hosting/collaboration.
   * [ ] Implement **real-time synchronization** for collaborative worldbuilding.
   * [ ] **Version Control** for Universe data, allowing rollback of major changes.
 
@@ -646,9 +646,9 @@ These phases will focus on highly requested features, external integrations, and
 
 We welcome contributions to any of the above phases\!
 
-1.  Review the **[Developer Guide](https://www.google.com/search?q=DEVELOPER_GUIDE.md)** for setup details.
-2.  Check the **[GitHub Issues](https://www.google.com/search?q=https://github.com/MrFrey75/WorldBuilder/issues)** for current bug priorities and feature requests.
-3.  Ensure your changes align with the **C\#/.NET Core** and **React** stack.
+1.  Review the **[Developer Guide](docs/DEVELOPER_GUIDE.md)** for setup details.
+2.  Check the **[GitHub Issues](https://www.google.com/search?q=https://github.com/MrFrey75/UniverseBuilder/issues)** for current bug priorities and feature requests.
+3.  Ensure your changes align with the **C#/.NET Core** and **React** stack.
 
 -----
 

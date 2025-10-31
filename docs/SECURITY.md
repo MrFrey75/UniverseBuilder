@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-WorldBuilder takes security seriously. If you discover a security vulnerability, please report it responsibly to protect all users.
+UniverseBuilder takes security seriously. If you discover a security vulnerability, please report it responsibly to protect all users.
 
 ### Do Not
 
@@ -73,4 +73,8 @@ For security-related questions or to report vulnerabilities:
 
 ---
 
-Thank you for helping keep WorldBuilder secure! 🔒
+Thank you for helping keep UniverseBuilder secure! 🔒
+
+[Code of Conduct](CODE_OF_CONDUCT.md)
+[Contributing Guidelines](CONTRIBUTING.md)
+[Roadmap](ROADMAP.md)

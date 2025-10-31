@@ -47,7 +47,7 @@ Related to #
 
 <!-- Ensure you've completed all of the following before requesting review -->
 
-- [ ] I have read the [CONTRIBUTING.md](../CONTRIBUTING.md) guidelines
+- [ ] I have read the [CONTRIBUTING.md](../docs/CONTRIBUTING.md) guidelines
 - [ ] I have followed the project's coding standards
 - [ ] I have made corresponding changes to documentation
 - [ ] My code follows the style guidelines of this project

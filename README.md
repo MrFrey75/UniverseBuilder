@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 WorldBuilder
+# 🌍 UniverseBuilder
 
 ### A Comprehensive Worldbuilding & Universe Creation Tool (C#/.NET Core & React)
 
@@ -11,7 +11,7 @@
 
 *Empower your storytelling with a powerful, performant application built on a **robust C# backend** and a modern, cross-platform **React frontend**.*
 
-[Features](#-features-built-on-net-core--react) • [Quick Start](QUICKSTART.md) • [User Guide](USER_GUIDE.md) • [Developer Guide](DEVELOPER_GUIDE.md) • [Roadmap](ROADMAP.md)
+[Features](#-features-built-on-net-core--react) • [Quick Start](docs/QUICKSTART.md) • [User Guide](USER_GUIDE.md) • [Developer Guide](docs/DEVELOPER_GUIDE.md) • [Roadmap](docs/ROADMAP.md) 
 
 </div>
 
@@ -19,9 +19,9 @@
 
 ## 📖 Overview
 
-**WorldBuilder** is a powerful cross-platform application that helps you create, organize, and maintain consistency across your fictional worlds. It is built on a **C#/.NET Core backend** and a modern, responsive **React frontend**.
+**UniverseBuilder** is a powerful cross-platform application that helps you create, organize, and maintain consistency across your fictional worlds. It is built on a **C#/.NET Core backend** and a modern, responsive **React frontend**.
 
-By leveraging a **highly structured C# core library (`UniverseBuilder.Core`)**, WorldBuilder ensures data integrity and scalability, allowing authors, storytellers, and creators to efficiently keep track of every detail in their universe. The embedded **MongoDB** database makes local development and deployment simple and fast.
+By leveraging a **highly structured C# core library (`UniverseBuilder.Core`)**, UniverseBuilder ensures data integrity and scalability, allowing authors, storytellers, and creators to efficiently keep track of every detail in their universe. The embedded **MongoDB** database makes local development and deployment simple and fast.
 
 ### 🎯 Perfect For
 
@@ -59,7 +59,7 @@ The C# `UniverseBuilder.Core` library provides high-integrity data, which the re
 
 ## 🛠️ Technology Stack
 
-WorldBuilder is a full-stack application leveraging modern, cross-platform technologies. The core logic is structured to support strong engineering practices (similar to **MVVM**) using the **Repository Pattern** for clean data access.
+UniverseBuilder is a full-stack application leveraging modern, cross-platform technologies. The core logic is structured to support strong engineering practices (similar to **MVVM**) using the **Repository Pattern** for clean data access.
 
 | Layer | Technology | Purpose |
 |:---|:---|:---|
@@ -78,7 +78,7 @@ WorldBuilder is a full-stack application leveraging modern, cross-platform techn
 The solution is organized into a standard .NET Core structure, separating the core logic, API, and frontend.
 
 ```
-WorldBuilder/
+UniverseBuilder/
 ├── README.md
 ├── docs/                             # User Guides and Architecture documentation
 ├── src/
@@ -115,7 +115,7 @@ Before you begin, ensure you have the following installed:
 
 ### Installation & Quick Start
 
-📚 **[See Quick Start Guide →](QUICKSTART.md)** for detailed installation and getting started instructions.
+📚 **[See Quick Start Guide →](docs/QUICKSTART.md)** for detailed installation and getting started instructions.
 
 **Quick Steps**:
 
@@ -129,8 +129,8 @@ Use the command line to get both the API and the UI running.
 
 ```bash
 # Clone repository
-git clone https://github.com/MrFrey75/WorldBuilder.git
-cd WorldBuilder/src
+git clone https://github.com/MrFrey75/UniverseBuilder.git
+cd UniverseBuilder/src
 
 # 1. Build & Run the C# Backend API (in first terminal)
 dotnet restore
@@ -146,9 +146,9 @@ npm start
 
 ## 💻 Development
 
-📖 **[See Developer Guide →](DEVELOPER_GUIDE.md)** for comprehensive technical documentation.
+📖 **[See Developer Guide →](docs/DEVELOPER_GUIDE.md)** for comprehensive technical documentation.
 
-WorldBuilder is built for performance and maintainability using modern **C#/.NET standards**. The use of **MongoDB** simplifies the local setup, allowing developers to get the application running and start contributing with minimal overhead. The project structure is intentionally designed to support architectural patterns that align with your experience in **WPF MVVM**.
+UniverseBuilder is built for performance and maintainability using modern **C#/.NET standards**. The use of **MongoDB** simplifies the local setup, allowing developers to get the application running and start contributing with minimal overhead. The project structure is intentionally designed to support architectural patterns that align with your experience in **WPF MVVM**.
 
 ### Running Tests
 
@@ -156,7 +156,7 @@ Unit and integration tests are available for the C# projects.
 
 ```bash
 # Run all C# tests
-dotnet test WorldBuilder.sln
+dotnet test UniverseBuilder.sln
 ```
 
 -----
@@ -167,7 +167,7 @@ dotnet test WorldBuilder.sln
 
 The core feature set is complete, and the project is now entering the **Beta Testing and Polish Phase** (Phase 15). We are focused on stability, performance, and preparing the standalone installers.
 
-**[📋 View Complete Roadmap →](ROADMAP.md)**
+**[📋 View Complete Roadmap →](docs/ROADMAP.md)**
 
 -----
 
@@ -193,17 +193,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-  - **Quick Start**: [QUICKSTART.md](QUICKSTART.md)
-  - **Issues**: [GitHub Issues](https://github.com/MrFrey75/WorldBuilder/issues)
-  - **Discussions**: [GitHub Discussions](https://github.com/MrFrey75/WorldBuilder/discussions)
+  - **Quick Start**: [QUICKSTART.md](docs/QUICKSTART.md)
+  - **Issues**: [GitHub Issues](https://github.com/MrFrey75/UniverseBuilder/issues)
+  - **Discussions**: [GitHub Discussions](https://github.com/MrFrey75/UniverseBuilder/discussions)
 
 -----
 
 <div align="center">
 
-**[⬆ Back to Top](#-worldbuilder)**
+**[⬆ Back to Top](#-UniverseBuilder)**
 
-Made with ❤️ for storytellers and worldbuilders everywhere
+Made with ❤️ for storytellers and UniverseBuilders everywhere
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug to help us improve WorldBuilder
+about: Report a bug to help us improve UniverseBuilder
 title: "[BUG] "
 labels: bug
 assignees: ""
@@ -30,7 +30,7 @@ assignees: ""
 - **.NET Version:** (e.g., 8.0)
 - **Node.js Version:** (e.g., 20.x)
 - **Browser** (if applicable): (e.g., Chrome 120)
-- **WorldBuilder Version/Branch:** (main, or specific version)
+- **UniverseBuilder Version/Branch:** (main, or specific version)
 
 ## Screenshots/Logs
 

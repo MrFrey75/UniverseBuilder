@@ -1,6 +1,6 @@
-# 🤝 Contributing to WorldBuilder
+# 🤝 Contributing to UniverseBuilder
 
-Thank you for your interest in contributing to WorldBuilder! We welcome contributions from everyone—whether you're fixing bugs, adding features, improving documentation, or suggesting enhancements.
+Thank you for your interest in contributing to UniverseBuilder! We welcome contributions from everyone—whether you're fixing bugs, adding features, improving documentation, or suggesting enhancements.
 
 This guide will help you get started and ensure a smooth contribution process.
 
@@ -26,12 +26,12 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating. We
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/WorldBuilder.git
-   cd WorldBuilder
+   git clone https://github.com/YOUR_USERNAME/UniverseBuilder.git
+   cd UniverseBuilder
    ```
 3. **Add upstream remote** (to stay in sync with the main repo):
    ```bash
-   git remote add upstream https://github.com/MrFrey75/WorldBuilder.git
+   git remote add upstream https://github.com/MrFrey75/UniverseBuilder.git
    ```
 4. **Create a feature branch** (see [Branch Strategy](#branch-strategy) below).
 
@@ -148,7 +148,7 @@ All contributions should include appropriate tests.
 - Aim for **80%+ code coverage** in the Core library
 - Run tests locally before pushing:
   ```bash
-  dotnet test WorldBuilder.sln
+  dotnet test UniverseBuilder.sln
   ```
 
 ### React Tests
@@ -259,7 +259,7 @@ Feel free to tackle open issues or propose work aligned with the roadmap!
 
 ## 🤔 Questions?
 
-- **GitHub Issues:** [Ask in Discussions](https://github.com/MrFrey75/WorldBuilder/discussions)
+- **GitHub Issues:** [Ask in Discussions](https://github.com/MrFrey75/UniverseBuilder/discussions)
 - **Architecture:** Check the Developer Guide (Developer_Guide.md coming soon)
 - **Quick answers:** Look at the README and existing code
 
@@ -267,6 +267,6 @@ Feel free to tackle open issues or propose work aligned with the roadmap!
 
 ## ❤️ Thank You!
 
-Your contributions—large or small—help make WorldBuilder better for everyone. We truly appreciate your effort and look forward to collaborating with you!
+Your contributions—large or small—help make UniverseBuilder better for everyone. We truly appreciate your effort and look forward to collaborating with you!
 
 Happy coding! 🚀
